@@ -25,10 +25,10 @@
 
 import dotenv from "npm:dotenv";
 dotenv.config();
-import OnchainParty from "../server";
+import OnchainPartyClass from "../server";
 import { createAlchemyWeb3 } from "npm:@alch/alchemy-web3";
 const web3 = createAlchemyWeb3(process.env.RPC);
-const OnchainParty = new OnchainParty();
+const OnchainParty = new OnchainPartyClass();
 OnchainParty.add("user", {
     authorize: async (req, account) => {
         const DEXLENS_TOKEN = "0x2e8faFAF34F610af898d6A5EAbcAd82417C56Ed9";
