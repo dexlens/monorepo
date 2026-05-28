@@ -1,7 +1,7 @@
 # Monorepo
 The Dexlens Monorepo
 
-# How to run on own machine? 
+## Want to learn how to run this on your own machine? 
 Contact a team member
 
 # Links
